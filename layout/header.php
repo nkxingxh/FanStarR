@@ -21,6 +21,8 @@
           href="<?php utils::indexTheme('assets/css/gazeimg.css');?>">
     <link rel="stylesheet"
           href="<?php utils::indexTheme('assets/css/prism.css');?>">
+    <link rel="stylesheet"
+          href="<?php utils::indexTheme('assets/css/FanStarR.css');?>">
     <title><?php $this->archiveTitle(array(
             'category' => _t('分类 %s 下的文章'),
             'search' => _t('包含关键字 %s 的文章'),
@@ -42,5 +44,5 @@
     <?php $this->options->cssEcho(); ?>
     <?php $this->options->headerEcho(); ?>
 </head>
-<body style="background-image:url('<?php echo utils::indexTheme('assets/img/bg.png'); ?>')">
+<body>
     

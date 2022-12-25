@@ -10,7 +10,7 @@ class utils
     public static function bannerHandle($content)
     {
         if(empty($content)) {
-            $content = Helper::options()->themeUrl("", "lanstar/assets/img").'/bg.jpg|'.'#'.'|标题|简介';
+            $content = Helper::options()->themeUrl("", "FanStarR/assets/img").'/bg.jpg|'.'#'.'|标题|简介';
         }
         $bannerArr = explode(PHP_EOL, $content);
         $text = '';
@@ -357,7 +357,7 @@ class utils
      */
     public static function addLoadingImages($image)
     {
-        return Helper::options()->themeUrl("", "lanstar/assets/img/loading/") . $image . '.gif';
+        return Helper::options()->themeUrl("", "FanStarR/assets/img/loading/") . $image . '.gif';
     }
 
 
@@ -444,7 +444,7 @@ EOF;
                 $post_title = htmlspecialchars($val['title']);
                 $post_date = date('Y-m-d', $val['created']);
                 $permalink = $val['permalink'];
-                $post_img = self::getPostImage($val['cid']) ?: Helper::options()->themeUrl("", "lanstar/assets/img/") . 'rand_default.jpg';
+                $post_img = self::getPostImage($val['cid']) ?: Helper::options()->themeUrl("", "FanStarR/assets/img/") . 'rand_default.jpg';
                 echo <<<EOF
                 <div class="sidebar-rand-item">
                     <a href="$permalink" target="_blank" class="sidebar-rand-img" style="background-image: linear-gradient(to right, rgb(144, 148, 148), transparent),url($post_img)"></a>
