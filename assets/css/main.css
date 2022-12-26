@@ -81,7 +81,8 @@ header {
     position: absolute;
     z-index: 9999;
     left: 0px;
-    background-color: #fdfbfb;
+    background-color: rgb(201 217 240 / 65%);
+    border-radius: 15px;
 }
 /**
 导航
