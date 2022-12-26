@@ -11,7 +11,7 @@
     --theme-choose-color: #1da1f21a;
     --text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     --theme-text-color: #4a4a4a;
-    --light-background: #fff;
+    --light-background: rgb(255 255 255 / 70%);
     --radius: 6px;
     --text1:#18191c;
     --text2:#61666D;
@@ -81,7 +81,8 @@ header {
     position: absolute;
     z-index: 9999;
     left: 0px;
-    background-color: #fdfbfb;
+    background-color: rgb(201 217 240 / 65%);
+    border-radius: 15px;
 }
 /**
 导航
@@ -90,7 +91,7 @@ header {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    width: 90px;
+    width: auto;
     padding: 1.5rem .5rem 1rem;
     margin-left: 3rem;
 }
@@ -130,7 +131,7 @@ header {
 }
 .nav-menu {
     border-radius: 5px;
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 70%);
     box-shadow: var(--box-shadow);
     margin-left: 3rem;
 }
@@ -222,7 +223,7 @@ ol.carousel-indicators li.active {
 }
 
 article, main, .article-comments {
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 70%);
     box-shadow: var(--box-shadow);
     max-width: 100%;
     position: relative;

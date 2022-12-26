@@ -63,7 +63,7 @@
                     let res = JSON.parse(xhr.responseText);
                     let str = '';
                     if (res.tag_name !== Version.innerHTML) {
-                        str = `<a class="update" target="_blank" href="https://github.com/dyedd/lanstar/releases/tag/${res.tag_name}">检测到版本更新！</a>`
+                        str = `<a class="update" target="_blank" href="https://github.com/nkxingxh/FanStarR/releases/tag/${res.tag_name}">检测到版本更新！</a>`
                     } else {
                         str = '<span class="no-update">当前已是最新版本！</span>'
                     }
@@ -82,7 +82,7 @@
                 }
             }
         };
-        xhr.open('get', 'https://api.github.com/repos/dyedd/lanstar/releases/latest', true);
+        xhr.open('get', 'https://api.github.com/repos/nkxingxh/FanStarR/releases/latest', true);
         xhr.send(null);
     });
 })();

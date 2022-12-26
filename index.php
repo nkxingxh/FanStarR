@@ -2,10 +2,10 @@
 /**
  * 自制简单主题，你的star就是我的动力
  *
- * @package Lanstar
- * @author 染念
+ * @package FanStarR
+ * @author 染念, NKXingXh
  * @version 3.0.4
- * @link https://dyedd.cn
+ * @link https://github.com/nkxingxh/FanStarR
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
