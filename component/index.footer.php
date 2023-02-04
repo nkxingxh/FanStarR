@@ -15,7 +15,7 @@
     }
 </script>
 <script src="<?php utils::indexTheme('assets/js/OwO.js'); ?>"></script>
-<script src="<?php utils::indexTheme('assets/js/lanstarApp.js'); ?>"></script>
+<script src="<?php utils::indexTheme('assets/js/FanStarR.app.js'); ?>"></script>
 <script src="<?php utils::indexTheme('assets/js/gazeimg.js'); ?>"></script>
 <script src="<?php utils::indexTheme('assets/js/icon.js'); ?>"></script>
 <script>lanstar.init();</script>
